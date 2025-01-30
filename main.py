@@ -425,4 +425,25 @@ students20 = {
         "state": "Buxoro viloyati",
         "zip_code": "200500"
     }
+},
+students21 = {
+    "id": 21,
+    "name": "Muxtorbek Islomov",
+    "age": 14,
+    "gender": "Male",
+    "contact": "998-90-234-56-78",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 86,
+        "science": 81,
+        "english": 87
+    },
+    "attendance": 97.0,
+    "activities": ["Shaxmat", "Raqs"],
+    "address": {
+        "street": "Bunyodkor ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100017"
+    }
 }
