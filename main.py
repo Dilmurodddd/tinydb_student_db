@@ -971,4 +971,25 @@ students46 = {
         "state": "Xorazm viloyati",
         "zip_code": "220500"
     }
+},
+students47 = {
+    "id": 47,
+    "name": "Rustam Ibragimov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-91-444-55-66",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 94,
+        "science": 92,
+        "english": 85
+    },
+    "attendance": 93.5,
+    "activities": ["Dasturlash", "Futbol"],
+    "address": {
+        "street": "Temuriylar shohko'chasi",
+        "city": "Qashqadaryo",
+        "state": "Qashqadaryo viloyati",
+        "zip_code": "180600"
+    }
 }
