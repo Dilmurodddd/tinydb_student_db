@@ -152,4 +152,25 @@ student7 = {
         "state": "Toshkent shahri",
         "zip_code": "100500"
     }
+},
+student8 = {
+    "id": 8,
+    "name": "Dilorom Raxmonova",
+    "age": 16,
+    "gender": "Female",
+    "contact": "998-93-234-56-78",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 92,
+        "science": 89,
+        "english": 90
+    },
+    "attendance": 96.5,
+    "activities": ["Fotografiya", "Voleybol"],
+    "address": {
+        "street": "Toshkent ko'chasi",
+        "city": "Navoiy",
+        "state": "Navoiy viloyati",
+        "zip_code": "210100"
+    }
 }
