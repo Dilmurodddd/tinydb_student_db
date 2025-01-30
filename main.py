@@ -468,3 +468,24 @@ students22 = {
         "zip_code": "170300"
     }
 }
+students23 = {
+    "id": 23,
+    "name": "Ravshanbek Tolibov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-93-456-78-90",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 93,
+        "science": 88,
+        "english": 92
+    },
+    "attendance": 94.0,
+    "activities": ["Basketbol", "Voleybol"],
+    "address": {
+        "street": "Hamza ko'chasi",
+        "city": "Samarqand",
+        "state": "Samarqand viloyati",
+        "zip_code": "140200"
+    }
+}
