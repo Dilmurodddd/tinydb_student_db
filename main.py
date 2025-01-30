@@ -236,4 +236,25 @@ students11 = {
         "state": "Toshkent shahri",
         "zip_code": "100015"
     }
+},
+students12 = {
+    "id": 11,
+    "name": "Zaynab Muxtorova",
+    "age": 15,
+    "gender": "Female",
+    "contact": "998-94-212-34-56",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 82,
+        "science": 86,
+        "english": 90
+    },
+    "attendance": 96.0,
+    "activities": ["Raqs", "Kitob o'qish"],
+    "address": {
+        "street": "Bog'ishamol ko'chasi",
+        "city": "Namangan",
+        "state": "Namangan viloyati",
+        "zip_code": "160100"
+    }
 }
