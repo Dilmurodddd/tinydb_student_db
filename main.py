@@ -362,4 +362,25 @@ students17= {
         "state": "Sirdaryo viloyati",
         "zip_code": "120100"
     }
+},
+students18 = {
+    "id": 17,
+    "name": "Maksuda Tohirova",
+    "age": 14,
+    "gender": "Female",
+    "contact": "998-90-987-65-43",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 82,
+        "science": 86,
+        "english": 88
+    },
+    "attendance": 97.5,
+    "activities": ["Voleybol", "Piyano"],
+    "address": {
+        "street": "Navro'z ko'chasi",
+        "city": "Farg'ona",
+        "state": "Farg'ona viloyati",
+        "zip_code": "150300"
+    }
 }
