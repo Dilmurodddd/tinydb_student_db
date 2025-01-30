@@ -489,3 +489,24 @@ students23 = {
         "zip_code": "140200"
     }
 }
+students24 = {
+    "id": 24,
+    "name": "Mavluda Karimova",
+    "age": 14,
+    "gender": "Female",
+    "contact": "998-91-567-89-01",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 84,
+        "science": 85,
+        "english": 86
+    },
+    "attendance": 97.5,
+    "activities": ["Raqs", "Voleybol"],
+    "address": {
+        "street": "Sayram ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100018"
+    }
+}
