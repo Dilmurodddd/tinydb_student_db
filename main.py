@@ -131,4 +131,25 @@ student6 ={
         "state": "Andijon viloyati",
         "zip_code": "170200"
     }
+},
+student7 = {
+    "id": 7,
+    "name": "Shahnoza Baxtiyorova",
+    "age": 14,
+    "gender": "Female",
+    "contact": "998-91-456-78-90",
+    "grade_level": "Grade 8",
+    "subjects": {
+        "math": 86,
+        "science": 88,
+        "english": 87
+    },
+    "attendance": 98.0,
+    "activities": ["Teatr", "Piyano"],
+    "address": {
+        "street": "Almazar ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100500"
+    }
 }
