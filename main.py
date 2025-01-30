@@ -824,4 +824,25 @@ students39 = {
         "state": "Farg'ona viloyati",
         "zip_code": "150200"
     }
+},
+students40 = {
+    "id": 40,
+    "name": "Nodira Abdug'aniyeva",
+    "age": 16,
+    "gender": "Female",
+    "contact": "998-94-567-89-01",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 88,
+        "science": 91,
+        "english": 89
+    },
+    "attendance": 97.0,
+    "activities": ["Voleybol", "Kitob o'qish"],
+    "address": {
+        "street": "Nasaf ko'chasi",
+        "city": "Termiz",
+        "state": "Surxondaryo viloyati",
+        "zip_code": "190300"
+    }
 }
