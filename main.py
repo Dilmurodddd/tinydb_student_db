@@ -446,4 +446,25 @@ students21 = {
         "state": "Toshkent shahri",
         "zip_code": "100017"
     }
+},
+students22 = {
+    "id": 22,
+    "name": "Mokhira Kholmatova",
+    "age": 16,
+    "gender": "Female",
+    "contact": "998-91-234-56-78",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 91,
+        "science": 85,
+        "english": 90
+    },
+    "attendance": 96.5,
+    "activities": ["Futbol", "Kitob o'qish"],
+    "address": {
+        "street": "Xalqlar do'stligi ko'chasi",
+        "city": "Andijon",
+        "state": "Andijon viloyati",
+        "zip_code": "170300"
+    }
 }
