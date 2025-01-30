@@ -1013,4 +1013,25 @@ students48 = {
         "state": "Surxondaryo viloyati",
         "zip_code": "190700"
     }
+},
+students49 = {
+    "id": 49,
+    "name": "Shoxrux Murodov",
+    "age": 16,
+    "gender": "Male",
+    "contact": "998-96-123-45-67",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 86,
+        "science": 90,
+        "english": 83
+    },
+    "attendance": 94.8,
+    "activities": ["Rasm chizish", "Voleybol"],
+    "address": {
+        "street": "Shayxontohur ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100012"
+    }
 }
