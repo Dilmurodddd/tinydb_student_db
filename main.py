@@ -908,4 +908,25 @@ students43 = {
         "state": "Farg'ona viloyati",
         "zip_code": "150300"
     }
+},
+students44 = {
+    "id": 44,
+    "name": "Dilnoza Saidova",
+    "age": 14,
+    "gender": "Female",
+    "contact": "998-95-777-88-99",
+    "grade_level": "Grade 8",
+    "subjects": {
+        "math": 80,
+        "science": 86,
+        "english": 91
+    },
+    "attendance": 97.0,
+    "activities": ["She'r yozish", "Piyano"],
+    "address": {
+        "street": "Zarafshon ko'chasi",
+        "city": "Navoiy",
+        "state": "Navoiy viloyati",
+        "zip_code": "210100"
+    }
 }
