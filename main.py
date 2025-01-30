@@ -1034,4 +1034,25 @@ students49 = {
         "state": "Toshkent shahri",
         "zip_code": "100012"
     }
+},
+students50 = {
+    "id": 50,
+    "name": "Laylo Eshmatova",
+    "age": 15,
+    "gender": "Female",
+    "contact": "998-99-777-88-99",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 89,
+        "science": 85,
+        "english": 90
+    },
+    "attendance": 97.1,
+    "activities": ["Badiiy gimnastika", "Teatr"],
+    "address": {
+        "street": "Samarqand ko'chasi",
+        "city": "Samarqand",
+        "state": "Samarqand viloyati",
+        "zip_code": "140101"
+    }
 }
