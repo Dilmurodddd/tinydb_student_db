@@ -929,4 +929,25 @@ students44 = {
         "state": "Navoiy viloyati",
         "zip_code": "210100"
     }
+},
+students45 = {
+    "id": 45,
+    "name": "Akmalbek Usmonov",
+    "age": 16,
+    "gender": "Male",
+    "contact": "998-93-666-77-88",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 88,
+        "science": 89,
+        "english": 82
+    },
+    "attendance": 94.5,
+    "activities": ["Boks", "Raqs"],
+    "address": {
+        "street": "Do'stlik ko'chasi",
+        "city": "Jizzax",
+        "state": "Jizzax viloyati",
+        "zip_code": "130400"
+    }
 }
