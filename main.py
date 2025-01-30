@@ -404,4 +404,25 @@ students19 = {
         "state": "Toshkent shahri",
         "zip_code": "100014"
     }
+},
+students20 = {
+    "id": 20,
+    "name": "Suhrobbek Mamadaliyev",
+    "age": 16,
+    "gender": "Male",
+    "contact": "998-92-345-67-89",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 88,
+        "science": 85,
+        "english": 90
+    },
+    "attendance": 96.0,
+    "activities": ["Voleybol", "Shaxmat"],
+    "address": {
+        "street": "Mirobod ko'chasi",
+        "city": "Buxoro",
+        "state": "Buxoro viloyati",
+        "zip_code": "200500"
+    }
 }
