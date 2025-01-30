@@ -761,4 +761,25 @@ students36 = {
         "state": "Toshkent shahri",
         "zip_code": "100001"
     }
+},
+students37 = {
+    "id": 37,
+    "name": "Dostonbek Makhmudov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-90-345-67-89",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 91,
+        "science": 93,
+        "english": 92
+    },
+    "attendance": 94.5,
+    "activities": ["Shaxmat", "Fotografiya"],
+    "address": {
+        "street": "Mirzo Ulug'bek ko'chasi",
+        "city": "Namangan",
+        "state": "Namangan viloyati",
+        "zip_code": "160100"
+    }
 }
