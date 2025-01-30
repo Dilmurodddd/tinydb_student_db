@@ -698,4 +698,25 @@ students33 = {
         "state": "Samarqand viloyati",
         "zip_code": "140500"
     }
+},
+students34 ={
+    "id": 34,
+    "name": "Feruza Murodova",
+    "age": 16,
+    "gender": "Female",
+    "contact": "998-91-345-67-89",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 88,
+        "science": 90,
+        "english": 89
+    },
+    "attendance": 94.0,
+    "activities": ["Raqs", "Kitob o'qish"],
+    "address": {
+        "street": "Amir Temur ko'chasi",
+        "city": "Termiz",
+        "state": "Surxondaryo viloyati",
+        "zip_code": "190200"
+    }
 }
