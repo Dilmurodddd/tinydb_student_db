@@ -278,4 +278,25 @@ students13 = {
         "state": "Jizzax viloyati",
         "zip_code": "170100"
     }
+},
+students14 = {
+    "id": 13,
+    "name": "Shavkatbek Yunusov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-93-456-78-90",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 95,
+        "science": 92,
+        "english": 88
+    },
+    "attendance": 97.0,
+    "activities": ["Futbol", "Voleybol"],
+    "address": {
+        "street": "Bodur ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100016"
+    }
 }
