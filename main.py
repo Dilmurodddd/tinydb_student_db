@@ -656,4 +656,25 @@ students31 = {
         "state": "Farg'ona viloyati",
         "zip_code": "150100"
     }
+},
+students32 = {
+    "id": 32,
+    "name": "Ikrombek Iskandarov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-92-123-45-67",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 89,
+        "science": 93,
+        "english": 91
+    },
+    "attendance": 95.5,
+    "activities": ["Basketbol", "Kompyuter o'yinlari"],
+    "address": {
+        "street": "Toshkent ko'chasi",
+        "city": "Buxoro",
+        "state": "Buxoro viloyati",
+        "zip_code": "200300"
+    }
 }
