@@ -68,6 +68,26 @@ student3 = {
     }
 }
 
-
+student4 = {
+    "id": 3,
+    "name": "Rustam Saidov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-93-222-33-44",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 92,
+        "science": 89,
+        "english": 90
+    },
+    "attendance": 94.0,
+    "activities": ["Basketbol", "Debat Klubi"],
+    "address": {
+        "street": "Amir Temur shohko'chasi",
+        "city": "Buxoro",
+        "state": "Buxoro viloyati",
+        "zip_code": "200600"
+    }
+}
 
 
