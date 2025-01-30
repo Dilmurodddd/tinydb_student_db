@@ -46,6 +46,27 @@ ssdunet2 = {
         "zip_code": "100011"
     }
 }
+student3 = {
+    "id": 2,
+    "name": "Madina Karimova",
+    "age": 15,
+    "gender": "Female",
+    "contact": "998-91-987-65-43",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 78,
+        "science": 85,
+        "english": 92
+    },
+    "attendance": 97.5,
+    "activities": ["Piyano", "Voleybol"],
+    "address": {
+        "street": "Shodlik ko'chasi",
+        "city": "Samarqand",
+        "state": "Samarqand viloyati",
+        "zip_code": "140100"
+    }
+}
 
 
 
