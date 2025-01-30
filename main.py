@@ -803,4 +803,25 @@ students38 = {
         "state": "Samarqand viloyati",
         "zip_code": "140700"
     }
+},
+students39 = {
+    "id": 39,
+    "name": "Sherzodbek Kadirov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-90-567-89-01",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 95,
+        "science": 88,
+        "english": 90
+    },
+    "attendance": 96.0,
+    "activities": ["Basketbol", "Kompyuter o'yinlari"],
+    "address": {
+        "street": "Chorvoq ko'chasi",
+        "city": "Farg'ona",
+        "state": "Farg'ona viloyati",
+        "zip_code": "150200"
+    }
 }
