@@ -530,4 +530,25 @@ students25 = {
         "state": "Toshkent shahri",
         "zip_code": "100019"
     }
+},
+students26 = {
+    "id": 26,
+    "name": "Abdulloh Begmatov",
+    "age": 16,
+    "gender": "Male",
+    "contact": "998-92-234-56-78",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 90,
+        "science": 94,
+        "english": 85
+    },
+    "attendance": 97.0,
+    "activities": ["Futbol", "Kompyuter o'yinlari"],
+    "address": {
+        "street": "Farhod ko'chasi",
+        "city": "Navoiy",
+        "state": "Navoiy viloyati",
+        "zip_code": "210200"
+    }
 }
