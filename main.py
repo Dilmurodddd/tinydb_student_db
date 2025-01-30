@@ -364,7 +364,7 @@ students17= {
     }
 },
 students18 = {
-    "id": 17,
+    "id": 18,
     "name": "Maksuda Tohirova",
     "age": 14,
     "gender": "Female",
@@ -382,5 +382,26 @@ students18 = {
         "city": "Farg'ona",
         "state": "Farg'ona viloyati",
         "zip_code": "150300"
+    }
+},
+students19 = {
+    "id": 19,
+    "name": "Bekzod Yusupov",
+    "age": 15,
+    "gender": "Male",
+    "contact": "998-91-789-01-23",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 80,
+        "science": 89,
+        "english": 83
+    },
+    "attendance": 95.5,
+    "activities": ["Basketbol", "Kompyuter o'yinlari"],
+    "address": {
+        "street": "Shayxontohur ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100014"
     }
 }
