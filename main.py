@@ -194,4 +194,25 @@ student9 = {
         "state": "Qashqadaryo viloyati",
         "zip_code": "180100"
     }
+},
+student10 = {
+    "id": 9,
+    "name": "Gulnoza Ismoilova",
+    "age": 14,
+    "gender": "Female",
+    "contact": "998-90-654-32-10",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 79,
+        "science": 83,
+        "english": 86
+    },
+    "attendance": 92.0,
+    "activities": ["Teatr", "Raqs"],
+    "address": {
+        "street": "Qo'qon ko'chasi",
+        "city": "Qo'qon",
+        "state": "Farg'ona viloyati",
+        "zip_code": "150200"
+    }
 }
