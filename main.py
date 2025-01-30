@@ -719,4 +719,25 @@ students34 ={
         "state": "Surxondaryo viloyati",
         "zip_code": "190200"
     }
+},
+students35 = {
+    "id": 35,
+    "name": "Bekzod Tursunov",
+    "age": 15,
+    "gender": "Male",
+    "contact": "998-94-234-56-78",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 86,
+        "science": 87,
+        "english": 92
+    },
+    "attendance": 95.0,
+    "activities": ["Shaxmat", "Futbol"],
+    "address": {
+        "street": "Qoraqalpoq ko'chasi",
+        "city": "Buxoro",
+        "state": "Buxoro viloyati",
+        "zip_code": "200400"
+    }
 }
