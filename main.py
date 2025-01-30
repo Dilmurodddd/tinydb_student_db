@@ -26,7 +26,7 @@ students1 = {
     }
 }
 ssdunet2 = {
-    "id": 1,
+    "id": 2,
     "name": "Ali Hasanov",
     "age": 16,
     "gender": "Male",
@@ -47,7 +47,7 @@ ssdunet2 = {
     }
 }
 student3 = {
-    "id": 2,
+    "id": 3,
     "name": "Madina Karimova",
     "age": 15,
     "gender": "Female",
@@ -69,7 +69,7 @@ student3 = {
 }
 
 student4 = {
-    "id": 3,
+    "id": 4,
     "name": "Rustam Saidov",
     "age": 17,
     "gender": "Male",
@@ -89,5 +89,25 @@ student4 = {
         "zip_code": "200600"
     }
 }
+student5 = {
+    'id':5,
+    'name':"Nodira Zayniddinova",
+    "age":23,
+    "gender":"Female",
+    "contact":"+998-96-524-32-35",
+    "grade_level":"Grade 10",
+    "subjects":{
+        "math":88,
+        "science":90,
+        "english":85
+    },
+    "attendance":96.0,
+    "activites":["Raqs", "Kitob o'qish"],
+    "address":{
+        "street":"Gagarin ko'chasi",
+        "city":"Farg'ona",
+        "state":"Farg'ona vilayati",
+        "zip_code":"152200"
+    }
 
-
+}
