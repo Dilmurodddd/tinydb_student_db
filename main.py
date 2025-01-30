@@ -110,4 +110,25 @@ student5 = {
         "zip_code":"152200"
     }
 
+},
+student6 ={
+    "id": 6,
+    "name": "Javlonbek Tashkentov",
+    "age": 15,
+    "gender": "Male",
+    "contact": "998-95-123-45-67",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 80,
+        "science": 78,
+        "english": 82
+    },
+    "attendance": 95.5,
+    "activities": ["Shaxmat", "Rassomlik"],
+    "address": {
+        "street": "Ko'kcha ko'chasi",
+        "city": "Andijon",
+        "state": "Andijon viloyati",
+        "zip_code": "170200"
+    }
 }
