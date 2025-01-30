@@ -551,4 +551,25 @@ students26 = {
         "state": "Navoiy viloyati",
         "zip_code": "210200"
     }
+},
+students27 = {
+    "id": 27,
+    "name": "Karimjon Alimov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-91-234-56-78",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 94,
+        "science": 88,
+        "english": 87
+    },
+    "attendance": 93.5,
+    "activities": ["Shaxmat", "Futbol"],
+    "address": {
+        "street": "Farg'ona ko'chasi",
+        "city": "Buxoro",
+        "state": "Buxoro viloyati",
+        "zip_code": "200700"
+    }
 }
