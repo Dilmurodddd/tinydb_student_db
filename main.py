@@ -173,4 +173,25 @@ student8 = {
         "state": "Navoiy viloyati",
         "zip_code": "210100"
     }
+},
+student9 = {
+    "id": 9,
+    "name": "Olimjon Azimov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-92-345-67-89",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 93,
+        "science": 94,
+        "english": 89
+    },
+    "attendance": 93.0,
+    "activities": ["Fotografiya", "Skripka"],
+    "address": {
+        "street": "Bodomzor ko'chasi",
+        "city": "Qarshi",
+        "state": "Qashqadaryo viloyati",
+        "zip_code": "180100"
+    }
 }
