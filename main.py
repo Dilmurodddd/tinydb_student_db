@@ -215,4 +215,25 @@ student10 = {
         "state": "Farg'ona viloyati",
         "zip_code": "150200"
     }
+},
+students11 = {
+    "id": 10,
+    "name": "Bunyodbek Kamilov",
+    "age": 16,
+    "gender": "Male",
+    "contact": "998-91-543-21-09",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 85,
+        "science": 91,
+        "english": 88
+    },
+    "attendance": 95.5,
+    "activities": ["Basketbol", "Shaxmat"],
+    "address": {
+        "street": "Shahrisabz ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100015"
+    }
 }
