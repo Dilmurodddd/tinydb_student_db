@@ -845,4 +845,25 @@ students40 = {
         "state": "Surxondaryo viloyati",
         "zip_code": "190300"
     }
+},
+students41 = {
+    "id": 41,
+    "name": "Shahzod Abdullayev",
+    "age": 16,
+    "gender": "Male",
+    "contact": "998-94-111-22-33",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 85,
+        "science": 88,
+        "english": 80
+    },
+    "attendance": 96.0,
+    "activities": ["Shaxmat", "Robototexnika"],
+    "address": {
+        "street": "Navoi ko'chasi",
+        "city": "Andijon",
+        "state": "Andijon viloyati",
+        "zip_code": "170100"
+    }
 }
