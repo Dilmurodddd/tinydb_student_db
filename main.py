@@ -677,4 +677,25 @@ students32 = {
         "state": "Buxoro viloyati",
         "zip_code": "200300"
     }
+},
+students33 = {
+    "id": 33,
+    "name": "Sardorbek Abdullayev",
+    "age": 15,
+    "gender": "Male",
+    "contact": "998-93-234-56-78",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 90,
+        "science": 85,
+        "english": 84
+    },
+    "attendance": 96.5,
+    "activities": ["Shaxmat", "Fotografiya"],
+    "address": {
+        "street": "Saylan ko'chasi",
+        "city": "Samarqand",
+        "state": "Samarqand viloyati",
+        "zip_code": "140500"
+    }
 }
