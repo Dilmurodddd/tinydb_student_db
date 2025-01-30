@@ -614,4 +614,25 @@ students29 = {
         "state": "Andijon viloyati",
         "zip_code": "170200"
     }
+},
+students30 = {
+    "id": 30,
+    "name": "Javohirbek Karimov",
+    "age": 16,
+    "gender": "Male",
+    "contact": "998-91-456-78-90",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 87,
+        "science": 92,
+        "english": 85
+    },
+    "attendance": 94.5,
+    "activities": ["Basketbol", "Shaxmat"],
+    "address": {
+        "street": "Gulbahor ko'chasi",
+        "city": "Xiva",
+        "state": "Xorazm viloyati",
+        "zip_code": "220200"
+    }
 }
