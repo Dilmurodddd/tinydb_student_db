@@ -887,4 +887,25 @@ students42 = {
         "state": "Namangan viloyati",
         "zip_code": "160200"
     }
+},
+students43 = {
+    "id": 43,
+    "name": "Javohir Qodirov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-99-333-44-55",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 93,
+        "science": 91,
+        "english": 88
+    },
+    "attendance": 92.0,
+    "activities": ["Futbol", "IT klubi"],
+    "address": {
+        "street": "Mustaqillik shohko'chasi",
+        "city": "Farg'ona",
+        "state": "Farg'ona viloyati",
+        "zip_code": "150300"
+    }
 }
