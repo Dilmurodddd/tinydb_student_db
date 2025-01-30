@@ -593,4 +593,25 @@ students28 = {
         "state": "Surxondaryo viloyati",
         "zip_code": "190100"
     }
+},
+students29 = {
+    "id": 29,
+    "name": "Gulbahor Yuldasheva",
+    "age": 15,
+    "gender": "Female",
+    "contact": "998-94-234-56-78",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 84,
+        "science": 88,
+        "english": 90
+    },
+    "attendance": 97.0,
+    "activities": ["Piyano", "Voleybol"],
+    "address": {
+        "street": "Beshyog'och ko'chasi",
+        "city": "Andijon",
+        "state": "Andijon viloyati",
+        "zip_code": "170200"
+    }
 }
