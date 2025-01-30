@@ -950,4 +950,25 @@ students45 = {
         "state": "Jizzax viloyati",
         "zip_code": "130400"
     }
+},
+students46 = {
+    "id": 46,
+    "name": "Zarina Qosimova",
+    "age": 15,
+    "gender": "Female",
+    "contact": "998-98-222-33-44",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 79,
+        "science": 87,
+        "english": 95
+    },
+    "attendance": 99.0,
+    "activities": ["Jurnalistika", "Debatlar"],
+    "address": {
+        "street": "Alisher Navoiy ko'chasi",
+        "city": "Xorazm",
+        "state": "Xorazm viloyati",
+        "zip_code": "220500"
+    }
 }
