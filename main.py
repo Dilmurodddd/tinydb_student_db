@@ -1,10 +1,13 @@
 from tinydb import TinyDB, Query
 
 # Create or connect to the database
-db = TinyDB('students.json')
+db = TinyDB('s.json')
 
-# Reference the default table
-students1 = {
+
+
+
+database = [
+    {
     "id": 1,
     "name": "John Doe",
     "age": 16,
@@ -24,8 +27,8 @@ students1 = {
         "state": "IL",
         "zip_code": "62704"
     }
-}
-ssdunet2 = {
+},
+{
     "id": 2,
     "name": "Ali Hasanov",
     "age": 16,
@@ -45,8 +48,8 @@ ssdunet2 = {
         "state": "Toshkent shahri",
         "zip_code": "100011"
     }
-}
-student3 = {
+},
+{
     "id": 3,
     "name": "Madina Karimova",
     "age": 15,
@@ -66,9 +69,9 @@ student3 = {
         "state": "Samarqand viloyati",
         "zip_code": "140100"
     }
-}
+},
+{
 
-student4 = {
     "id": 4,
     "name": "Rustam Saidov",
     "age": 17,
@@ -88,8 +91,8 @@ student4 = {
         "state": "Buxoro viloyati",
         "zip_code": "200600"
     }
-}
-student5 = {
+},
+{
     'id':5,
     'name':"Nodira Zayniddinova",
     "age":23,
@@ -111,8 +114,7 @@ student5 = {
     }
 
 },
-student6 ={
-    "id": 6,
+{    "id": 6,
     "name": "Javlonbek Tashkentov",
     "age": 15,
     "gender": "Male",
@@ -132,7 +134,7 @@ student6 ={
         "zip_code": "170200"
     }
 },
-student7 = {
+{
     "id": 7,
     "name": "Shahnoza Baxtiyorova",
     "age": 14,
@@ -153,7 +155,7 @@ student7 = {
         "zip_code": "100500"
     }
 },
-student8 = {
+{
     "id": 8,
     "name": "Dilorom Raxmonova",
     "age": 16,
@@ -174,7 +176,7 @@ student8 = {
         "zip_code": "210100"
     }
 },
-student9 = {
+{
     "id": 9,
     "name": "Olimjon Azimov",
     "age": 17,
@@ -195,7 +197,7 @@ student9 = {
         "zip_code": "180100"
     }
 },
-student10 = {
+{
     "id": 9,
     "name": "Gulnoza Ismoilova",
     "age": 14,
@@ -216,7 +218,7 @@ student10 = {
         "zip_code": "150200"
     }
 },
-students11 = {
+{
     "id": 10,
     "name": "Bunyodbek Kamilov",
     "age": 16,
@@ -237,7 +239,7 @@ students11 = {
         "zip_code": "100015"
     }
 },
-students12 = {
+{
     "id": 11,
     "name": "Zaynab Muxtorova",
     "age": 15,
@@ -258,7 +260,7 @@ students12 = {
         "zip_code": "160100"
     }
 },
-students13 = {
+{
     "id": 12,
     "name": "Bahromjon Sirojov",
     "age": 16,
@@ -279,7 +281,7 @@ students13 = {
         "zip_code": "170100"
     }
 },
-students14 = {
+{
     "id": 13,
     "name": "Shavkatbek Yunusov",
     "age": 17,
@@ -300,7 +302,7 @@ students14 = {
         "zip_code": "100016"
     }
 },
-students15 = {
+{
     "id": 15,
     "name": "Samar Rakhmonov",
     "age": 15,
@@ -321,7 +323,7 @@ students15 = {
         "zip_code": "220100"
     }
 },
-students16 = {
+{
     "id": 16,
     "name": "Dilnoza Mirzaeva",
     "age": 22,
@@ -342,7 +344,7 @@ students16 = {
         "zip_code": "100021"
     }
 },
-students17= {
+{
     "id": 17,
     "name": "Jasurbek Umarov",
     "age": 17,
@@ -363,7 +365,7 @@ students17= {
         "zip_code": "120100"
     }
 },
-students18 = {
+{
     "id": 18,
     "name": "Maksuda Tohirova",
     "age": 14,
@@ -384,7 +386,7 @@ students18 = {
         "zip_code": "150300"
     }
 },
-students19 = {
+{
     "id": 19,
     "name": "Bekzod Yusupov",
     "age": 15,
@@ -405,7 +407,7 @@ students19 = {
         "zip_code": "100014"
     }
 },
-students20 = {
+{
     "id": 20,
     "name": "Suhrobbek Mamadaliyev",
     "age": 16,
@@ -426,7 +428,7 @@ students20 = {
         "zip_code": "200500"
     }
 },
-students21 = {
+{
     "id": 21,
     "name": "Muxtorbek Islomov",
     "age": 14,
@@ -447,7 +449,7 @@ students21 = {
         "zip_code": "100017"
     }
 },
-students22 = {
+{
     "id": 22,
     "name": "Mokhira Kholmatova",
     "age": 16,
@@ -467,8 +469,8 @@ students22 = {
         "state": "Andijon viloyati",
         "zip_code": "170300"
     }
-}
-students23 = {
+},
+{
     "id": 23,
     "name": "Ravshanbek Tolibov",
     "age": 17,
@@ -488,8 +490,8 @@ students23 = {
         "state": "Samarqand viloyati",
         "zip_code": "140200"
     }
-}
-students24 = {
+},
+{
     "id": 24,
     "name": "Mavluda Karimova",
     "age": 14,
@@ -510,7 +512,7 @@ students24 = {
         "zip_code": "100018"
     }
 },
-students25 = {
+{
     "id": 25,
     "name": "Aziza Hakimova",
     "age": 15,
@@ -531,7 +533,7 @@ students25 = {
         "zip_code": "100019"
     }
 },
-students26 = {
+{
     "id": 26,
     "name": "Abdulloh Begmatov",
     "age": 16,
@@ -552,7 +554,7 @@ students26 = {
         "zip_code": "210200"
     }
 },
-students27 = {
+{
     "id": 27,
     "name": "Karimjon Alimov",
     "age": 17,
@@ -573,7 +575,7 @@ students27 = {
         "zip_code": "200700"
     }
 },
-students28 = {
+{
     "id": 28,
     "name": "Kamronbek Rashidov",
     "age": 16,
@@ -594,7 +596,7 @@ students28 = {
         "zip_code": "190100"
     }
 },
-students29 = {
+{
     "id": 29,
     "name": "Gulbahor Yuldasheva",
     "age": 15,
@@ -615,7 +617,7 @@ students29 = {
         "zip_code": "170200"
     }
 },
-students30 = {
+{
     "id": 30,
     "name": "Javohirbek Karimov",
     "age": 16,
@@ -636,7 +638,7 @@ students30 = {
         "zip_code": "220200"
     }
 },
-students31 = {
+{
     "id": 31,
     "name": "Zaynab Sobirova",
     "age": 15,
@@ -657,7 +659,7 @@ students31 = {
         "zip_code": "150100"
     }
 },
-students32 = {
+{
     "id": 32,
     "name": "Ikrombek Iskandarov",
     "age": 17,
@@ -678,7 +680,7 @@ students32 = {
         "zip_code": "200300"
     }
 },
-students33 = {
+{
     "id": 33,
     "name": "Sardorbek Abdullayev",
     "age": 15,
@@ -699,7 +701,7 @@ students33 = {
         "zip_code": "140500"
     }
 },
-students34 ={
+{
     "id": 34,
     "name": "Feruza Murodova",
     "age": 16,
@@ -720,7 +722,7 @@ students34 ={
         "zip_code": "190200"
     }
 },
-students35 = {
+{
     "id": 35,
     "name": "Bekzod Tursunov",
     "age": 15,
@@ -741,7 +743,7 @@ students35 = {
         "zip_code": "200400"
     }
 },
-students36 = {
+{
     "id": 36,
     "name": "Malika Umarova",
     "age": 14,
@@ -762,7 +764,7 @@ students36 = {
         "zip_code": "100001"
     }
 },
-students37 = {
+{
     "id": 37,
     "name": "Dostonbek Makhmudov",
     "age": 17,
@@ -783,7 +785,7 @@ students37 = {
         "zip_code": "160100"
     }
 },
-students38 = {
+{
     "id": 38,
     "name": "Dilorom Abdurahmanova",
     "age": 15,
@@ -804,7 +806,7 @@ students38 = {
         "zip_code": "140700"
     }
 },
-students39 = {
+{
     "id": 39,
     "name": "Sherzodbek Kadirov",
     "age": 17,
@@ -825,7 +827,7 @@ students39 = {
         "zip_code": "150200"
     }
 },
-students40 = {
+{
     "id": 40,
     "name": "Nodira Abdug'aniyeva",
     "age": 16,
@@ -846,7 +848,7 @@ students40 = {
         "zip_code": "190300"
     }
 },
-students41 = {
+{
     "id": 41,
     "name": "Shahzod Abdullayev",
     "age": 16,
@@ -867,7 +869,7 @@ students41 = {
         "zip_code": "170100"
     }
 },
-students42 = {
+{
     "id": 42,
     "name": "Nodira Rasulova",
     "age": 15,
@@ -888,7 +890,7 @@ students42 = {
         "zip_code": "160200"
     }
 },
-students43 = {
+{
     "id": 43,
     "name": "Javohir Qodirov",
     "age": 17,
@@ -909,7 +911,7 @@ students43 = {
         "zip_code": "150300"
     }
 },
-students44 = {
+{
     "id": 44,
     "name": "Dilnoza Saidova",
     "age": 14,
@@ -930,7 +932,7 @@ students44 = {
         "zip_code": "210100"
     }
 },
-students45 = {
+{
     "id": 45,
     "name": "Akmalbek Usmonov",
     "age": 16,
@@ -951,7 +953,7 @@ students45 = {
         "zip_code": "130400"
     }
 },
-students46 = {
+{
     "id": 46,
     "name": "Zarina Qosimova",
     "age": 15,
@@ -972,7 +974,7 @@ students46 = {
         "zip_code": "220500"
     }
 },
-students47 = {
+{
     "id": 47,
     "name": "Rustam Ibragimov",
     "age": 17,
@@ -993,7 +995,7 @@ students47 = {
         "zip_code": "180600"
     }
 },
-students48 = {
+{
     "id": 48,
     "name": "Gulnoza Rahimova",
     "age": 14,
@@ -1014,7 +1016,7 @@ students48 = {
         "zip_code": "190700"
     }
 },
-students49 = {
+{
     "id": 49,
     "name": "Shoxrux Murodov",
     "age": 16,
@@ -1035,7 +1037,7 @@ students49 = {
         "zip_code": "100012"
     }
 },
-students50 = {
+{
     "id": 50,
     "name": "Laylo Eshmatova",
     "age": 15,
@@ -1056,3 +1058,7 @@ students50 = {
         "zip_code": "140101"
     }
 }
+]
+
+db.insert_multiple(database)
+
