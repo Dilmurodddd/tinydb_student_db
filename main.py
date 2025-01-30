@@ -992,4 +992,25 @@ students47 = {
         "state": "Qashqadaryo viloyati",
         "zip_code": "180600"
     }
+},
+students48 = {
+    "id": 48,
+    "name": "Gulnoza Rahimova",
+    "age": 14,
+    "gender": "Female",
+    "contact": "998-92-888-99-00",
+    "grade_level": "Grade 8",
+    "subjects": {
+        "math": 81,
+        "science": 83,
+        "english": 94
+    },
+    "attendance": 98.2,
+    "activities": ["Teatr", "Musiqa"],
+    "address": {
+        "street": "Qo'shchinor ko'chasi",
+        "city": "Surxondaryo",
+        "state": "Surxondaryo viloyati",
+        "zip_code": "190700"
+    }
 }
