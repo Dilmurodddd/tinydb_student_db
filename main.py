@@ -572,4 +572,25 @@ students27 = {
         "state": "Buxoro viloyati",
         "zip_code": "200700"
     }
+},
+students28 = {
+    "id": 28,
+    "name": "Kamronbek Rashidov",
+    "age": 16,
+    "gender": "Male",
+    "contact": "998-93-345-67-89",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 91,
+        "science": 85,
+        "english": 88
+    },
+    "attendance": 96.5,
+    "activities": ["Basketbol", "Raqs"],
+    "address": {
+        "street": "Toshkent ko'chasi",
+        "city": "Termiz",
+        "state": "Surxondaryo viloyati",
+        "zip_code": "190100"
+    }
 }
