@@ -740,4 +740,25 @@ students35 = {
         "state": "Buxoro viloyati",
         "zip_code": "200400"
     }
+},
+students36 = {
+    "id": 36,
+    "name": "Malika Umarova",
+    "age": 14,
+    "gender": "Female",
+    "contact": "998-91-123-45-67",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 85,
+        "science": 88,
+        "english": 83
+    },
+    "attendance": 96.5,
+    "activities": ["Raqs", "Kitob o'qish"],
+    "address": {
+        "street": "Yusuf Turobov ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100001"
+    }
 }
