@@ -320,4 +320,25 @@ students15 = {
         "state": "Xorazm viloyati",
         "zip_code": "220100"
     }
+},
+students16 = {
+    "id": 16,
+    "name": "Dilnoza Mirzaeva",
+    "age": 22,
+    "gender": "Female",
+    "contact": "998-94-567-89-01",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 88,
+        "science": 84,
+        "english": 87
+    },
+    "attendance": 94.5,
+    "activities": ["Fotografiya", "Raqs"],
+    "address": {
+        "street": "Yusufbek ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100021"
+    }
 }
