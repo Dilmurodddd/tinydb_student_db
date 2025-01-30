@@ -782,4 +782,25 @@ students37 = {
         "state": "Namangan viloyati",
         "zip_code": "160100"
     }
+},
+students38 = {
+    "id": 38,
+    "name": "Dilorom Abdurahmanova",
+    "age": 15,
+    "gender": "Female",
+    "contact": "998-92-456-78-90",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 82,
+        "science": 84,
+        "english": 86
+    },
+    "attendance": 95.0,
+    "activities": ["Piyano", "Basketbol"],
+    "address": {
+        "street": "Buxoro ko'chasi",
+        "city": "Samarqand",
+        "state": "Samarqand viloyati",
+        "zip_code": "140700"
+    }
 }
