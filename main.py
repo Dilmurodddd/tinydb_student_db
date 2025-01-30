@@ -635,4 +635,25 @@ students30 = {
         "state": "Xorazm viloyati",
         "zip_code": "220200"
     }
+},
+students31 = {
+    "id": 31,
+    "name": "Zaynab Sobirova",
+    "age": 15,
+    "gender": "Female",
+    "contact": "998-90-567-89-01",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 83,
+        "science": 87,
+        "english": 90
+    },
+    "attendance": 96.0,
+    "activities": ["Futbol", "Debat klubi"],
+    "address": {
+        "street": "Navbahor ko'chasi",
+        "city": "Farg'ona",
+        "state": "Farg'ona viloyati",
+        "zip_code": "150100"
+    }
 }
