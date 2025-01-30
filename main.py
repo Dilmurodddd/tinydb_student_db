@@ -257,4 +257,25 @@ students12 = {
         "state": "Namangan viloyati",
         "zip_code": "160100"
     }
+},
+students13 = {
+    "id": 12,
+    "name": "Bahromjon Sirojov",
+    "age": 16,
+    "gender": "Male",
+    "contact": "998-90-789-01-23",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 90,
+        "science": 88,
+        "english": 85
+    },
+    "attendance": 94.5,
+    "activities": ["Kanoe", "Shaxmat"],
+    "address": {
+        "street": "G'azalkent ko'chasi",
+        "city": "Jizzax",
+        "state": "Jizzax viloyati",
+        "zip_code": "170100"
+    }
 }
