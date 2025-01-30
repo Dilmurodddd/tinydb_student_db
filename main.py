@@ -299,4 +299,25 @@ students14 = {
         "state": "Toshkent shahri",
         "zip_code": "100016"
     }
+},
+students15 = {
+    "id": 15,
+    "name": "Samar Rakhmonov",
+    "age": 15,
+    "gender": "Male",
+    "contact": "998-91-123-45-67",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 85,
+        "science": 88,
+        "english": 80
+    },
+    "attendance": 95.0,
+    "activities": ["Basketbol", "Piyano"],
+    "address": {
+        "street": "Bahor ko'chasi",
+        "city": "Xiva",
+        "state": "Xorazm viloyati",
+        "zip_code": "220100"
+    }
 }
