@@ -341,4 +341,25 @@ students16 = {
         "state": "Toshkent shahri",
         "zip_code": "100021"
     }
+},
+students17= {
+    "id": 17,
+    "name": "Jasurbek Umarov",
+    "age": 17,
+    "gender": "Male",
+    "contact": "998-93-123-45-67",
+    "grade_level": "Grade 11",
+    "subjects": {
+        "math": 90,
+        "science": 89,
+        "english": 84
+    },
+    "attendance": 96.0,
+    "activities": ["Shaxmat", "Basketbol"],
+    "address": {
+        "street": "O'zbekiston ko'chasi",
+        "city": "Sirdaryo",
+        "state": "Sirdaryo viloyati",
+        "zip_code": "120100"
+    }
 }
