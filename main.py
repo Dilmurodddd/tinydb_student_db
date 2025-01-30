@@ -866,4 +866,25 @@ students41 = {
         "state": "Andijon viloyati",
         "zip_code": "170100"
     }
+},
+students42 = {
+    "id": 42,
+    "name": "Nodira Rasulova",
+    "age": 15,
+    "gender": "Female",
+    "contact": "998-97-555-66-77",
+    "grade_level": "Grade 9",
+    "subjects": {
+        "math": 90,
+        "science": 84,
+        "english": 86
+    },
+    "attendance": 98.5,
+    "activities": ["Rasm chizish", "Tennis"],
+    "address": {
+        "street": "Bog' ko'chasi",
+        "city": "Namangan",
+        "state": "Namangan viloyati",
+        "zip_code": "160200"
+    }
 }
