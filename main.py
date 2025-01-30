@@ -509,4 +509,25 @@ students24 = {
         "state": "Toshkent shahri",
         "zip_code": "100018"
     }
+},
+students25 = {
+    "id": 25,
+    "name": "Aziza Hakimova",
+    "age": 15,
+    "gender": "Female",
+    "contact": "998-90-765-43-21",
+    "grade_level": "Grade 10",
+    "subjects": {
+        "math": 87,
+        "science": 92,
+        "english": 89
+    },
+    "attendance": 95.0,
+    "activities": ["Fotografiya", "Piyano"],
+    "address": {
+        "street": "Chilonzor ko'chasi",
+        "city": "Toshkent",
+        "state": "Toshkent shahri",
+        "zip_code": "100019"
+    }
 }
